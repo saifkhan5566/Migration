@@ -9,5 +9,6 @@ def replace_in_sql(sql_string):
     else:
         print('String did not match the expected pattern.')
 
-sql_string = 'select your_column into v_result from your_table where col1 := 12 return v_result;'
+sql_string = 'select your_column into v_result from your_table where col1 := 13 return v_result;'
 replace_in_sql(sql_string)
+
