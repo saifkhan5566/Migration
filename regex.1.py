@@ -1,3 +1,4 @@
+Pattern to find
 import re
 
 def replace_in_sql(string):
